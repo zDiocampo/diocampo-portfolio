@@ -1,0 +1,176 @@
+/*css reset*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*Navbar start*/
+
+.navbar {
+	font-family: 'Cormorant SC';
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+
+}
+.navbar-brand {
+
+	font-family: 'Cormorant SC';
+	font-size: 40px;
+	color: black;
+}
+
+.nav-link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#navbg {
+	border-radius: 5%;
+}
+body {
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%
+}
+a:hover {
+	background-color: lightgrey;
+	color: none;
+	text-decoration: none;
+	border-radius: 50%;
+
+}
+#main {
+	text-align: center;
+	margin-top: 3rem;
+	font-family: 'Bubblegum Sans';
+	width: 75vw;
+}
+#name {
+	color: white;
+	font-size: 4rem;
+	border-bottom: 3px dotted white;
+
+}
+#position {
+	color: whitesmoke;
+	font-size: 3rem;
+}
+#profilepic {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	border: 2px dashed yellow;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+footer {
+	background-color: blue;
+	height: 2rem;
+	color: white;
+	font-family: 'Cormorant SC';
+	font-size: 5px;
+}
+
+#contact {
+	background-color: white;
+	text-align: center;
+	width: 25%;
+
+}
+
+.card {
+	background-color: white;
+	font-family: 'Cormorant SC';
+}
+#project {
+	margin-top: 25%;
+	color: black;
+	background-color: yellow;
+	padding: 2rem;
+}
+#projectTitle {
+	text-align: center;
+	color: black;
+	font-family: 'Bubblegum Sans';
+	padding: 1rem;
+	background-color: white;
+	width: 25%;
+	border-radius: %;
+}
+
+#map {
+	padding: 2rem;
+	justify-content: center;
+
+}
+#form {
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	background-color: white;
+	padding: 2rem;
+	margin-top: 4rem;
+	border-radius: 10%;
+}
+.form-select {
+	margin-top: 1rem;
+}
+#contact {
+	justify-content: center;
+	background-color: whitesmoke;
+}
+#label {
+	font-size: 2rem;
+	background-color: black;
+	width: 75%;
+	color: white;
+	font-family: 'Bubblegum sans';
+	margin-top: 2rem;
+}
+.fa {
+/*  padding: 30px;
+  font-size: 30px;*/
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+
+
+

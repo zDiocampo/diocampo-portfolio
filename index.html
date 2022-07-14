@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Capstone Project 1</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+
+	<!-- icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+
+<body>
+	<div id="top"></div>
+	<div class="container sticky-top" id="home">
+		<nav class="navbar navbar-expand-lg bg-light"id="navbg">
+		  <div class="container-fluid">
+		    <a class="navbar-brand " href="#top">Z Diocampo</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+		      <div class="navbar-nav nav ms-auto">
+		      	<a class="nav-link" href="#">Home</a>
+		        <a class="nav-link" href="#projectTitle">Projects</a>
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+
+	</div>
+
+	<!-- content -->
+
+	<div class="container-fluid" id="main">
+		<img src="../images/zandro.png" id="profilepic">
+		<h1 id="name">Zandro Diocampo</h1>
+		<h3 id="position">Web Developer</h3>
+	</div>
+
+	<div class="container-fluid text-center">
+		<div>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-skype"></a>
+		</div>
+	</div>
+
+	<!-- cards -->
+	<div class="container-fluid" id="project">
+		<h3 class="text-dark" id="projectTitle">PROJECTS</h3>
+		<div id="projectBg">
+			<div class="card mb-3" style="max-width: auto;">
+			  <div class="row g-0">
+			    <div class="col-md-4">
+			      <img src="../images/project1.png" class="img-fluid rounded-start" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			        <h5 class="card-title">Project 1</h5>
+			        <p class="card-text">This is an example project.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="card mb-3" style="max-width: auto;">
+			  <div class="row g-0">
+			    <div class="col-md-4">
+			      <img src="../images/project2.png" class="img-fluid rounded-start" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			        <h5 class="card-title">Project 2</h5>
+			        <p class="card-text">This is an example project. A profile of Mr. Bart Simpson with a rounded photo in center and with light theme.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div><div class="card mb-3" style="max-width: auto;">
+			  <div class="row g-0">
+			    <div class="col-md-4">
+			      <img src="../images/project3.png" class="img-fluid rounded-start" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			        <h5 class="card-title">Project 3</h5>
+			        <p class="card-text">This is a example project. A portfolio of Ada Lovelace with dark theme.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- contact  -->
+
+	<div class="container-fluid col-md-6">
+		<div id="contact"></div>
+		<form id="form">
+			<label id="label">Contact Me</label>
+		  <div class="mb-3">
+		     <label for="exampleInputEmail1" class="form-label">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		    <label for="contactNumber" class="form-label">Contact Number</label>
+		    <input type="tel" class="form-control" id="tel" aria-describedby="phone" name="phone">
+
+
+		    <label for="form-select">Concerns</label>
+		    <select class="form-select" aria-label="Default select example">
+
+		      <option value="1">Pricing</option>
+		      <option value="2">Inquiry</option>
+		      <option value="3">Others</option>
+		      <option selected></option>
+		    </select>
+		    <label for="textarea">Others (please type in)</label>
+		    <div class="form-floating">
+		      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+		      <label for="floatingTextarea"></label>
+		    </div>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+			</div>
+
+			<div class="row container-fluid" id="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.758871639635!2d123.97771038365399!3d10.366593054569801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9bd555e6994cb%3A0x189a740b9f7d1049!2sRedwood%20Subdivision!5e0!3m2!1sen!2sph!4v1657675767848!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+
+
+	<!-- footer -->
+	<footer>
+		<div class="text-center col-sm-none">
+			<h4>email: zandrodiocampo@gmail.com | mobile: 09190047123</h4>
+		</div>
+	</footer>
+
+		
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
